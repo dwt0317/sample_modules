@@ -115,12 +115,12 @@ implementation:
     - inputValue: Maximum missing value ratio
     - --cleaning-mode
     - inputValue: Cleaning mode
-    - --replacement-value
-    - inputValue: Replacement value
-    - --cols-with-all-missing-values
-    - inputValue: Cols with all missing values
-    - --generate-missing-value-indicator-column
-    - inputValue: Generate missing value indicator column
+    - - --replacement-value
+      - inputValue: Replacement value
+    - - --cols-with-all-missing-values
+      - inputValue: Cols with all missing values
+    - - --generate-missing-value-indicator-column
+      - inputValue: Generate missing value indicator column
     - --cleaned-dataset
     - outputPath: Cleaned dataset
     - --cleaning-transformation
