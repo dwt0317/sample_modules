@@ -1,8 +1,11 @@
-name: xgboost4j - Train classifier
+moduleIdentifier:
+  namespace: zhizhu.com/test
+  moduleName: xgboost4j - Train classifier
+  moduleVersion: 0.0.1
 description: Trains a boosted tree ensemble classifier using xgboost4j
 
 inputs:
-- {name: Training data}
+- {name: Training data, type: DataFrameDirectory}
 - {name: Rounds, type: Integer, default: '30', help: Number of training rounds}
 
 outputs:

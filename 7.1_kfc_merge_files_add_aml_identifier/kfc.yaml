@@ -1,6 +1,7 @@
-amlIdentifier:
+moduleIdentifier:
   moduleName: Merge every n files together cdd3b0ba
-  version: 0.0.1
+  moduleVersion: 0.0.1
+  namespace: test/test
 inputs:
 - name: InputFolder
   type: LocalPath

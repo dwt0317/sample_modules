@@ -1,4 +1,7 @@
-name: Merge every n files together cdd3b0ba
+moduleIdentifier:
+  moduleName: Merge every n files together cdd3b0ba
+  moduleVersion: 0.0.1
+  namespace: test/test
 inputs:
 - name: InputFolder
   type: LocalPath
